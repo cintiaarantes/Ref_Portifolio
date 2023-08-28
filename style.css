@@ -1,0 +1,55 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,96,135,1) 35%, rgba(1,96,135,1) 35%);
+}
+
+
+h1{
+    color:rgb(255, 34, 0);
+    padding-left: 30px;
+}
+
+h2{
+    color:rgb(255, 100, 0);
+}
+
+.header{
+    text-align: center;
+    background-color: aquamarine;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item2 h2{
+    color: paleturquoise;
+    text-align: center;
+    /* margin-left: 60px; */
+}
+
+.item2:hover img{
+    opacity: 0.5;
+    transform: rotate(333deg);
+}
+
+.item1:hover{
+    transform:scale(1.2);
+}
+
+.item:hover{
+    transform:scale(0.8);
+    opacity: 0.5;
+}
+
+.item3:hover{
+    transform:rotate(27deg);
+}
+
+.item4:hover{
+    transform:scaleY(1.2);
+    opacity: 0.8;
+}
